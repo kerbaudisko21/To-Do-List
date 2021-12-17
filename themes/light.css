@@ -1,0 +1,218 @@
+body {
+  background-image: url("../backgrounds/background.png") !important;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none !important;
+}
+
+.padding {
+  background-color: white !important;
+  border: none !important;
+}
+
+#tdlLogo {
+  width: 60px;
+  height: 60px;
+  background: url("../logos/TDLlight.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in-out;
+}
+
+#calendarLink {
+  width: 60px;
+  height: 60px;
+  background: url("../logos/calPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in-out;
+}
+
+#calendarLink:hover {
+  background: url("../logos/calHoverPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#notesLink {
+  width: 60px;
+  height: 60px;
+  background: url("../logos/notesPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in-out;
+}
+
+#notesLink:hover {
+  background: url("../logos/notesHoverPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#stopwatchLink {
+  width: 60px;
+  height: 60px;
+  background: url("../logos/stopPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in-out;
+}
+
+#stopwatchLink:hover {
+  background: url("../logos/stopHoverPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#timerLink {
+  width: 60px;
+  height: 60px;
+  background: url("../logos/timerPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in-out;
+}
+
+#timerLink:hover {
+  background: url("../logos/timerHoverPng.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+button,
+.event {
+  color: #fffcff;
+}
+
+#header,
+a,
+#userOut {
+  color: #35455d;
+  transition: 0.2s ease-in-out;
+}
+
+#userIn > a:hover,
+#userOut:hover {
+  color: #5d7daf;
+}
+
+.priorityLevel,
+#resetBtn:hover {
+  border-color: #35455d;
+}
+
+#header button,
+#dateButton,
+.priorityLevel,
+#resetBtn:hover {
+  color: #35455d;
+  background-color: white;
+  transition: 0.2s ease-in-out;
+}
+
+#header button:hover,
+#dateButton:hover,
+.priorityLevel:hover,
+#resetBtn {
+  color: white;
+  background-color: #35455d;
+}
+
+#weekdays {
+  color: #247ba0;
+}
+
+.event {
+  background-color: #ff5151;
+}
+
+.day {
+  border-color: rgb(225, 239, 255);
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.day:hover {
+  background-color: #e8f4fa !important;
+  color: black !important;
+}
+
+#newEventModal,
+#deleteEventModal,
+.day + #currentDay {
+  background-color: #35455d;
+  color: white;
+}
+
+#eventTitleInput.error,
+select.error {
+  border-color: red;
+}
+
+#cancelButton,
+#deleteButton {
+  background-color: #d36c6c;
+}
+
+#saveButton,
+#closeButton {
+  background-color: white;
+  color: #35455d;
+}
+
+#modalBackDrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.comp .task {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.HighPrio > .task {
+  background-color: #35455d;
+  color: white;
+}
+
+.MedPrio > .task {
+  background-color: #426ba8;
+  color: white;
+}
+
+.LowPrio > .task {
+  background-color: #3f82e7;
+  color: white;
+}
+
+.comp > .task {
+  background-color: #ffffff;
+  border-color: #35455d;
+  color: #35455d;
+}
+
+#sourceLink > a {
+  color: #2357a5;
+}
+
+#sourceLink > a:hover {
+  color: #6ca7ff;
+}
+
+#stopwatch,
+#timerContainer > span,
+#timerContainer > input {
+  color: #35455d;
+}

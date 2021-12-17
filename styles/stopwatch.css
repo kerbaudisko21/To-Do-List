@@ -1,0 +1,43 @@
+#stopwatch {
+  font-size: 100px;
+}
+
+.SWbuttons {
+  margin: auto auto;
+}
+
+.SWbuttons > .swbtn {
+  align-items: center;
+  border: 2px solid;
+  transition: 0.2s ease-in-out;
+}
+
+#stopwatchContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#stopwatch {
+  margin-bottom: 2rem;
+}
+
+#startBtn {
+  background-color: rgb(21, 185, 76);
+}
+
+#stopBtn {
+  background-color: rgb(214, 40, 40);
+}
+
+#startBtn:hover {
+  border-color: rgb(21, 185, 76);
+  background-color: white;
+  color: rgb(21, 185, 76);
+}
+
+#stopBtn:hover {
+  border-color: rgb(214, 40, 40);
+  background-color: white;
+  color: rgb(214, 40, 40);
+}

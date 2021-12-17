@@ -1,0 +1,63 @@
+div {
+  display: block;
+}
+
+#inputField {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.padding {
+  cursor: default !important;
+  box-shadow: none !important;
+}
+
+#priorityList {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.txtb {
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+.task {
+  width: 95%;
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.task i {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.priorityLevel {
+  margin-left: 1rem;
+  border-radius: 10px;
+  padding: 0rem 0.5rem;
+  border: 2px solid;
+}
+
+.comp > .task {
+  border: 2px solid;
+}
+
+.subheadTasks {
+  font-size: 15px;
+}
+
+.notcomp {
+  margin-bottom: 1rem;
+}
